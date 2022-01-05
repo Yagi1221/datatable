@@ -11,9 +11,6 @@ const Search = ({ onSearch }) => {
     <input
       className='form-control'
       type='text'
-      // style={{
-      //   width: '200px',
-      // }}
       placeholder='搜尋'
       value={search}
       onChange={(e) => onInputChange(e.target.value)}
